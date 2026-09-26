@@ -1,0 +1,28 @@
+{
+  "id": "contact",
+  "title": "Contact AMP India Foundation",
+  "summary": "Reach AMP India Foundation by phone, email, or visit the Mumbai office. You can also submit a message through the Contact page on the website.",
+  "address": "Room 9, 1st Floor, Halima Manzil, Mirza Ghalib Marg, A Clare Road, Nagpada, Mumbai - 400008",
+  "phone": "+91 8291101312",
+  "phone_hours": "Mon - Sat, 9AM to 6PM",
+  "email": "contact@ampindiafoundation.org",
+  "email_note": "We reply within 24 hours",
+  "form_page": "/contact",
+  "social": {
+    "facebook": "ampindiafoundation",
+    "instagram": "ampindiafoundation"
+  },
+  "keywords": [
+    "contact",
+    "phone",
+    "email",
+    "address",
+    "office",
+    "location",
+    "call",
+    "reach",
+    "mumbai",
+    "helpline"
+  ],
+  "page": "/contact"
+}

@@ -1,0 +1,7 @@
+# Events — AMP India Foundation (AIF)
+
+AMP India Foundation hosts employment drives, skill workshops, medical camps, mentorship programmes, and community outreach across India.
+
+Specific event names, dates, venues, and whether an event is upcoming or past are published in the CMS and on the website Events page. Do not list dated events from this file.
+
+For current listings visit /events or ask about upcoming, featured, or past events so the live CMS records can be used.

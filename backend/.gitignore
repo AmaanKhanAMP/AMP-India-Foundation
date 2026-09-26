@@ -1,0 +1,15 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+instance/
+# Runtime CMS UUID uploads stay untracked. Finalized published images are
+# force-added so they ship with the backend deploy.
+uploads/*
+!uploads/.gitkeep
+*.log
+.DS_Store

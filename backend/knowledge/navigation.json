@@ -1,0 +1,22 @@
+{
+  "id": "navigation",
+  "title": "Website Navigation",
+  "summary": "Useful pages on the AMP India Foundation website.",
+  "links": [
+    { "label": "Home", "path": "/" },
+    { "label": "About / What We Do", "path": "/about" },
+    { "label": "Projects", "path": "/projects" },
+    { "label": "Education Projects", "path": "/projects/education" },
+    { "label": "Medical Projects", "path": "/projects/medical" },
+    { "label": "Employment Projects", "path": "/projects/employment" },
+    { "label": "Empowerment Projects", "path": "/projects/empowerment" },
+    { "label": "Mentorship Projects", "path": "/projects/mentorship" },
+    { "label": "Training (ETP)", "path": "/projects/training" },
+    { "label": "Events", "path": "/events" },
+    { "label": "Volunteer", "path": "/volunteer" },
+    { "label": "Support / Donate", "path": "/support-us" },
+    { "label": "Contact", "path": "/contact" },
+    { "label": "Terms & Conditions", "path": "/terms-and-conditions" }
+  ],
+  "keywords": ["page", "website", "link", "where", "navigate", "menu", "site"]
+}

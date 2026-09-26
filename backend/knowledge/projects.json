@@ -1,0 +1,82 @@
+{
+  "id": "projects",
+  "title": "Projects & Programs",
+  "summary": "AMP India Foundation runs education, employment, medical, empowerment, mentorship, and training initiatives for underprivileged youth and communities.",
+  "flagship": [
+    {
+      "name": "ACE - Academy for Competitive Exams",
+      "description": "Premium coaching and mentorship for competitive exam aspirants.",
+      "page": "/projects"
+    },
+    {
+      "name": "AMP Employment Assistance Cell",
+      "description": "Connecting skilled youth with employers through training and job fairs.",
+      "page": "/projects/employment"
+    },
+    {
+      "name": "National Talent Search (NTS)",
+      "description": "Identifying and nurturing talented students across India.",
+      "page": "/projects"
+    },
+    {
+      "name": "AMP Higher Education Scholarship",
+      "description": "Scholarships enabling meritorious students to pursue higher education.",
+      "page": "/about"
+    }
+  ],
+  "initiatives": [
+    {
+      "id": "education",
+      "name": "Education & Vocational Skills",
+      "description": "Vocational skill programs for BPL youth including trades such as mobile repair, AC/fridge servicing, water filter systems, and vehicle-related skills, with NSDC and CSR partnerships.",
+      "page": "/projects/education",
+      "keywords": ["education", "vocational", "skills", "training", "nsdc"]
+    },
+    {
+      "id": "medical",
+      "name": "Medical Projects",
+      "description": "Diagnostic camps, free medicine clinics, and emergency tertiary-care funding for underserved communities.",
+      "page": "/projects/medical",
+      "keywords": ["medical", "health", "healthcare", "clinic", "camp", "medicine", "hospital"]
+    },
+    {
+      "id": "employment",
+      "name": "Employment Programs",
+      "description": "Soft-skills training, employability seminars, and job drives/fairs connecting youth with employers.",
+      "page": "/projects/employment",
+      "keywords": ["employment", "job", "jobs", "placement", "career", "hiring"]
+    },
+    {
+      "id": "empowerment",
+      "name": "Women Empowerment & Livelihoods",
+      "description": "Livelihood assistance, capital guidance, and self-help group (SHG) support for economic empowerment.",
+      "page": "/projects/empowerment",
+      "keywords": ["empowerment", "women", "livelihood", "shg", "self help", "women empowerment"]
+    },
+    {
+      "id": "mentorship",
+      "name": "Youth Mentorship",
+      "description": "Corporate professionals mentoring first-generation students through academic and career pathways.",
+      "page": "/projects/mentorship",
+      "keywords": ["mentorship", "mentor", "youth", "youth programs", "guidance"]
+    },
+    {
+      "id": "training",
+      "name": "Employability Training Programme (ETP)",
+      "description": "Resume building, interview preparation, grooming, and communication skills for job readiness.",
+      "page": "/projects/training",
+      "keywords": ["etp", "employability", "interview", "resume", "soft skills"]
+    }
+  ],
+  "keywords": [
+    "project",
+    "projects",
+    "program",
+    "programs",
+    "initiative",
+    "initiatives",
+    "what do you do",
+    "services"
+  ],
+  "page": "/projects"
+}

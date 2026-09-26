@@ -1,0 +1,37 @@
+{
+  "id": "faq",
+  "title": "Frequently Asked Questions",
+  "items": [
+    {
+      "question": "What is the primary mission of AMP India Foundation?",
+      "answer": "AMP India Foundation is dedicated to promoting inclusive social progression by bridging structural development gaps for the under-served and needy all over India, entirely managed through professional volunteer resources.",
+      "keywords": ["mission", "purpose", "primary mission", "what is amp"]
+    },
+    {
+      "question": "How can I apply for an AMP scholarship or financial support?",
+      "answer": "Deserving students can apply through our designated online crowdfunding and welfare application portals. Submissions are transparently verified based strictly on merit and economic need criteria.",
+      "keywords": ["apply scholarship", "financial support", "application", "how to apply"]
+    },
+    {
+      "question": "How do I become a volunteer with the foundation?",
+      "answer": "Professionals and student mentors can sign up voluntarily through our network platform. You can offer specialized career guidance, training, or local field execution support based on your skill sets. Register at https://tinyurl.com/AIFVolunteerRegn",
+      "keywords": ["volunteer", "become volunteer", "join", "mentor"]
+    },
+    {
+      "question": "Does the foundation have any regional or religious bias?",
+      "answer": "No. All social development models, financial support distributions, and skill training workflows are executed completely irrespective of caste, community, creed, or religion.",
+      "keywords": ["bias", "religion", "caste", "community", "creed", "inclusive"]
+    },
+    {
+      "question": "What are the key focus execution areas for the organization?",
+      "answer": "Our core pillars target Economic Empowerment, Employment support channels, Vocational Skill Development, Medical relief, and specialized Student Mentorship paradigms.",
+      "keywords": ["focus", "pillars", "areas", "programs", "what do you do"]
+    },
+    {
+      "question": "How does the online Crowd Funding platform function?",
+      "answer": "It acts as a direct verification bridge matching philanthropic donors securely with help-seekers for medical crisis emergencies, educational institutional funding, and essential livelihoods support.",
+      "keywords": ["crowdfunding", "crowd funding", "donors", "help seekers", "platform"]
+    }
+  ],
+  "keywords": ["faq", "question", "help", "how", "what", "why"]
+}

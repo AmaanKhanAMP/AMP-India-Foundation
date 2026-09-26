@@ -1,0 +1,86 @@
+{
+  "id": "events",
+  "title": "Events",
+  "summary": "AMP India Foundation hosts employment drives, skill workshops, medical camps, mentorship summits, and community outreach programs across India.",
+  "featured": {
+    "title": "Career Guidance & Employment Drive 2026",
+    "date": "Saturday, 15 March 2026",
+    "time": "9:00 AM – 5:00 PM",
+    "venue": "Mumbai",
+    "category": "Employment",
+    "description": "A flagship employment initiative connecting skilled youth with leading corporate employers. Featuring resume clinics, mock interviews, on-spot hiring, and career counselling by industry professionals."
+  },
+  "upcoming": [
+    {
+      "title": "Scholarship Awareness & Education Workshop",
+      "category": "Education",
+      "date": "18 Jan 2026",
+      "venue": "Delhi NCR",
+      "description": "Guiding meritorious underprivileged students on scholarship applications, higher education pathways, and Centres of Excellence programs."
+    },
+    {
+      "title": "Employability Training Programme (ETP)",
+      "category": "Training",
+      "date": "24 Jul 2026",
+      "venue": "Seminar Hall 2, Mumbai Campus",
+      "description": "Pre-employment preparation focused on resume building, communication, and mock corporate interviews. Speaker: Mr. Tirmizi Ashrafi."
+    },
+    {
+      "title": "National Mega Job Fair & Placement Drive",
+      "category": "Employment",
+      "date": "12 Aug 2026",
+      "venue": "Mumbai / Nagpada",
+      "description": "Bridging skilled youth with top-tier corporate employers across industrial sectors with on-spot interviews and hiring."
+    },
+    {
+      "title": "Free Medical Camp & Health Screening",
+      "category": "Medical Camp",
+      "date": "22 Aug 2026",
+      "venue": "Hyderabad",
+      "description": "Free health check-ups, critical illness screenings, and medical relief support for underserved communities."
+    },
+    {
+      "title": "Vocational Skill Development Bootcamp",
+      "category": "Skill Development",
+      "date": "05 Sep 2026",
+      "venue": "Bengaluru",
+      "description": "Intensive vocational training in digital skills, tailoring, and small-scale entrepreneurship for sustainable livelihoods."
+    },
+    {
+      "title": "Skill Training & Vocational Orientation",
+      "category": "Skill Development",
+      "date": "05 Sep 2026",
+      "venue": "Centre of Excellence, Auditorium B",
+      "description": "Career guidance seminar on self-employment micro-financing, business incubation, and vocational paths."
+    },
+    {
+      "title": "Student Mentorship & Career Guidance Summit",
+      "category": "Career Guidance",
+      "date": "14 Oct 2026",
+      "venue": "Pune",
+      "description": "One-on-one mentoring sessions with industry professionals for academic and career decision-making."
+    },
+    {
+      "title": "Community Outreach & Upliftment Drive",
+      "category": "Community Outreach",
+      "date": "12 Dec 2026",
+      "venue": "Kolkata",
+      "description": "Grassroots initiative with essential supplies, financial literacy workshops, and self-help group setups."
+    }
+  ],
+  "keywords": [
+    "event",
+    "events",
+    "upcoming",
+    "workshop",
+    "job fair",
+    "camp",
+    "summit",
+    "schedule",
+    "when",
+    "next event",
+    "programme",
+    "program"
+  ],
+  "page": "/events"
+}

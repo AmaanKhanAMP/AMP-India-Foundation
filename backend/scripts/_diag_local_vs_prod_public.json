@@ -1,0 +1,1453 @@
+{
+  "local": {
+    "hero_banners": {
+      "total": 3,
+      "alive": 3,
+      "deleted": 0,
+      "rows": [
+        {
+          "id": 1,
+          "title": "Empowering Lives Through",
+          "image": "/uploads/hero-banners/hero-education.png",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 1
+        },
+        {
+          "id": 2,
+          "title": "Creating Opportunities Through",
+          "image": "/uploads/hero-banners/hero-employment.png",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 2
+        },
+        {
+          "id": 3,
+          "title": "Building Stronger",
+          "image": "/uploads/hero-banners/hero-community-impact.png",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 3
+        }
+      ]
+    },
+    "home_projects": {
+      "total": 5,
+      "alive": 4,
+      "deleted": 1,
+      "rows": [
+        {
+          "id": 1,
+          "title": "Mega Job Fair",
+          "image": "/uploads/home-projects/home-project-mega-job-fair.png",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 2
+        },
+        {
+          "id": 2,
+          "title": "Employability Training Program (ETP)",
+          "image": "/uploads/home-projects/home-project-etp.png",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 1
+        },
+        {
+          "id": 3,
+          "title": "Career Guidance & Mentorship",
+          "image": "/uploads/home-projects/home-project-career-guidance.png",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 3
+        },
+        {
+          "id": 4,
+          "title": "Education Support",
+          "image": "/uploads/home-projects/home-project-education-support.png",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 4
+        },
+        {
+          "id": 5,
+          "title": "AMP Higher Education Scholarship (Copy)",
+          "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=600&q=80",
+          "status": "draft",
+          "is_deleted": true,
+          "display_order": 5
+        }
+      ]
+    },
+    "home_gallery_items": {
+      "total": 6,
+      "alive": 6,
+      "deleted": 0,
+      "rows": [
+        {
+          "id": 1,
+          "title": "Community Outreach & Registration Drive",
+          "image": "/uploads/home-gallery/community-registration-drive.png",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 1
+        },
+        {
+          "id": 2,
+          "title": "Mega Job Fair at Byculla, Mumbai",
+          "image": "/uploads/home-gallery/mega-job-fair-byculla-mumbai.png",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 4
+        },
+        {
+          "id": 3,
+          "title": "Community Outreach and Registration",
+          "image": "/uploads/home-gallery/community-event-registration.png",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 2
+        },
+        {
+          "id": 4,
+          "title": "AMP Ahmedabad Chapter Meeting",
+          "image": "/uploads/home-gallery/amp-ahmedabad-chapter-workshop.png",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 3
+        },
+        {
+          "id": 5,
+          "title": "Mega Job Fair — Ballari, Karnataka",
+          "image": "/uploads/home-gallery/mega-job-fair-ballari.png",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 5
+        },
+        {
+          "id": 6,
+          "title": "Mega Job Fair at Thassim Beevi College",
+          "image": "/uploads/home-gallery/mega-job-fair-thassim-beevi-college.png",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 6
+        }
+      ]
+    },
+    "testimonials": {
+      "total": 15,
+      "alive": 6,
+      "deleted": 9,
+      "rows": [
+        {
+          "id": 1,
+          "title": "Aamir Cyclewala",
+          "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=300&h=300&q=80",
+          "status": "published",
+          "is_deleted": true,
+          "display_order": 1
+        },
+        {
+          "id": 2,
+          "title": "Nilofer Khan",
+          "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&h=300&q=80",
+          "status": "published",
+          "is_deleted": true,
+          "display_order": 2
+        },
+        {
+          "id": 3,
+          "title": "Imran Shaikh",
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&h=300&q=80",
+          "status": "published",
+          "is_deleted": true,
+          "display_order": 3
+        },
+        {
+          "id": 4,
+          "title": "Aisha Khan",
+          "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=300&h=300&q=80",
+          "status": "published",
+          "is_deleted": true,
+          "display_order": 4
+        },
+        {
+          "id": 5,
+          "title": "Rahul Sharma",
+          "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&h=300&q=80",
+          "status": "published",
+          "is_deleted": true,
+          "display_order": 5
+        },
+        {
+          "id": 6,
+          "title": "Fatima Shaikh",
+          "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=300&h=300&q=80",
+          "status": "published",
+          "is_deleted": true,
+          "display_order": 6
+        },
+        {
+          "id": 7,
+          "title": "Imran Siddiqui",
+          "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&h=300&q=80",
+          "status": "published",
+          "is_deleted": true,
+          "display_order": 7
+        },
+        {
+          "id": 8,
+          "title": "Neha Patel",
+          "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=300&h=300&q=80",
+          "status": "published",
+          "is_deleted": true,
+          "display_order": 8
+        },
+        {
+          "id": 9,
+          "title": "Mohammed Arif",
+          "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=300&h=300&q=80",
+          "status": "published",
+          "is_deleted": true,
+          "display_order": 9
+        },
+        {
+          "id": 10,
+          "title": "Mrinal Kanti Debnath",
+          "image": "/uploads/testimonials/aamir-malik.png",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 1
+        },
+        {
+          "id": 11,
+          "title": "Yawar Ihsan",
+          "image": "/uploads/testimonials/imran-shaikh.png",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 2
+        },
+        {
+          "id": 12,
+          "title": "Chandrakant Khade",
+          "image": "/uploads/testimonials/rahul-sharma.png",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 3
+        },
+        {
+          "id": 13,
+          "title": "Mohammed Farrok Gheewala",
+          "image": "/uploads/testimonials/imran-siddiqui.png",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 4
+        },
+        {
+          "id": 14,
+          "title": "Vikram Singh",
+          "image": "/uploads/testimonials/mohammed-arif.png",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 5
+        },
+        {
+          "id": 15,
+          "title": "Mohammed Ekramuddin Shaikh",
+          "image": "/uploads/testimonials/mohammed-ekramuddin-shaikh.png",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 6
+        }
+      ]
+    },
+    "featured_events": {
+      "total": 1,
+      "alive": 1,
+      "deleted": 0,
+      "rows": [
+        {
+          "id": 1,
+          "title": "Kupwara Mega Job Fair",
+          "image": "/uploads/featured-events/kupwara-mega-job-fair.jpeg",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 1
+        }
+      ]
+    },
+    "upcoming_events": {
+      "total": 6,
+      "alive": 5,
+      "deleted": 1,
+      "rows": [
+        {
+          "id": 1,
+          "title": "Free Medical Camp & Health Screening",
+          "image": "/uploads/upcoming-events/medical-relief-camp.png",
+          "status": "draft",
+          "is_deleted": false,
+          "display_order": 2
+        },
+        {
+          "id": 2,
+          "title": "Kupwara Mega Job Fair",
+          "image": "/uploads/upcoming-events/kupwara-mega-job-fair.jpeg",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 1
+        },
+        {
+          "id": 3,
+          "title": "Vocational Skill Development Bootcamp",
+          "image": "/uploads/upcoming-events/employment-training-workshop.png",
+          "status": "draft",
+          "is_deleted": false,
+          "display_order": 3
+        },
+        {
+          "id": 4,
+          "title": "Student Mentorship & Career Guidance Summit",
+          "image": "/uploads/upcoming-events/mentorship-agra-chapter.png",
+          "status": "draft",
+          "is_deleted": false,
+          "display_order": 4
+        },
+        {
+          "id": 5,
+          "title": "Community Outreach & Upliftment Drive",
+          "image": "/uploads/upcoming-events/community-registration-drive.png",
+          "status": "draft",
+          "is_deleted": false,
+          "display_order": 5
+        },
+        {
+          "id": 6,
+          "title": "Community Outreach & Upliftment Drive",
+          "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=600&q=80",
+          "status": "draft",
+          "is_deleted": true,
+          "display_order": 6
+        }
+      ]
+    },
+    "gallery_items": {
+      "total": 12,
+      "alive": 6,
+      "deleted": 6,
+      "rows": [
+        {
+          "id": 1,
+          "title": "National Job Fair 2025",
+          "image": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=600&q=80",
+          "status": "published",
+          "is_deleted": true,
+          "display_order": 1
+        },
+        {
+          "id": 2,
+          "title": "Medical Relief Camp",
+          "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=600&q=80",
+          "status": "published",
+          "is_deleted": true,
+          "display_order": 2
+        },
+        {
+          "id": 3,
+          "title": "Scholarship Distribution",
+          "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=600&q=80",
+          "status": "published",
+          "is_deleted": true,
+          "display_order": 3
+        },
+        {
+          "id": 4,
+          "title": "Skill Training Graduation",
+          "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=600&q=80",
+          "status": "published",
+          "is_deleted": true,
+          "display_order": 4
+        },
+        {
+          "id": 5,
+          "title": "Mentorship Summit",
+          "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80",
+          "status": "published",
+          "is_deleted": true,
+          "display_order": 5
+        },
+        {
+          "id": 6,
+          "title": "Community Upliftment Drive",
+          "image": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=600&q=80",
+          "status": "published",
+          "is_deleted": true,
+          "display_order": 6
+        },
+        {
+          "id": 7,
+          "title": "AMP's 2nd Srinagar, Kashmir Job Fair",
+          "image": "/uploads/past-events/srinagar-job-fair.jpg",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 1
+        },
+        {
+          "id": 8,
+          "title": "AMP Kolkata Job Fair",
+          "image": "/uploads/past-events/kolkata-job-fair.jpg",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 2
+        },
+        {
+          "id": 9,
+          "title": "AMP Mega Job Fair in Doddaballapur",
+          "image": "/uploads/past-events/doddaballapur-job-fair.jpg",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 3
+        },
+        {
+          "id": 10,
+          "title": "AMP Mega Job Fair in Nanded",
+          "image": "/uploads/past-events/nanded-job-fair.jpg",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 4
+        },
+        {
+          "id": 11,
+          "title": "AMP National Talent Search 2025 – Grand Launch",
+          "image": "/uploads/past-events/nts-2025.jpg",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 5
+        },
+        {
+          "id": 12,
+          "title": "AMP Unity Job Fair at Mumbai 2024",
+          "image": "/uploads/past-events/mumbai-unity-job-fair-2024.jpg",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 6
+        }
+      ]
+    },
+    "navbar_settings": {
+      "total": 1,
+      "alive": 1,
+      "deleted": 0,
+      "rows": [
+        {
+          "id": 1,
+          "title": "AMP Logo",
+          "image": "/assets/logo.png",
+          "status": null,
+          "is_deleted": false,
+          "display_order": null
+        }
+      ]
+    },
+    "navbar_items": {
+      "total": 13,
+      "alive": 13,
+      "deleted": 0,
+      "rows": [
+        {
+          "id": 1,
+          "title": "HOME",
+          "image": "",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 1
+        },
+        {
+          "id": 2,
+          "title": "ABOUT US",
+          "image": "",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 2
+        },
+        {
+          "id": 3,
+          "title": "PROJECTS",
+          "image": "",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 3
+        },
+        {
+          "id": 4,
+          "title": "Education",
+          "image": "",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 4
+        },
+        {
+          "id": 5,
+          "title": "Medical Relief",
+          "image": "",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 5
+        },
+        {
+          "id": 6,
+          "title": "Employment Support",
+          "image": "",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 6
+        },
+        {
+          "id": 7,
+          "title": "Economic Empowerment",
+          "image": "",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 7
+        },
+        {
+          "id": 8,
+          "title": "Student Mentorship",
+          "image": "",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 8
+        },
+        {
+          "id": 9,
+          "title": "Employment Training",
+          "image": "",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 9
+        },
+        {
+          "id": 10,
+          "title": "EVENTS",
+          "image": "",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 10
+        },
+        {
+          "id": 11,
+          "title": "VOLUNTEER",
+          "image": "",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 11
+        },
+        {
+          "id": 12,
+          "title": "SUPPORT US",
+          "image": "",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 12
+        },
+        {
+          "id": 13,
+          "title": "CONTACT",
+          "image": "",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 13
+        }
+      ]
+    },
+    "footer_settings": {
+      "total": 1,
+      "alive": 1,
+      "deleted": 0,
+      "rows": [
+        {
+          "id": 1,
+          "title": "Join Our Mission to Empower Lives Through Education & Employment.",
+          "image": "",
+          "status": null,
+          "is_deleted": false,
+          "display_order": null
+        }
+      ]
+    },
+    "footer_links": {
+      "total": 9,
+      "alive": 9,
+      "deleted": 0,
+      "rows": [
+        {
+          "id": 1,
+          "title": "Home",
+          "image": "",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 1
+        },
+        {
+          "id": 2,
+          "title": "About Us",
+          "image": "",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 2
+        },
+        {
+          "id": 3,
+          "title": "What We Do",
+          "image": "",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 3
+        },
+        {
+          "id": 4,
+          "title": "Projects",
+          "image": "",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 4
+        },
+        {
+          "id": 5,
+          "title": "Events",
+          "image": "",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 5
+        },
+        {
+          "id": 6,
+          "title": "Join Us / Volunteer",
+          "image": "",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 6
+        },
+        {
+          "id": 7,
+          "title": "Support Us",
+          "image": "",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 7
+        },
+        {
+          "id": 8,
+          "title": "Contact",
+          "image": "",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 8
+        },
+        {
+          "id": 9,
+          "title": "Terms & Conditions",
+          "image": "",
+          "status": "published",
+          "is_deleted": false,
+          "display_order": 9
+        }
+      ]
+    }
+  },
+  "production_public": {
+    "hero_banners": [
+      {
+        "created_at": "2026-07-22T12:36:51",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 1,
+        "id": 1,
+        "image_url": "/uploads/hero-banners/hero-education.png",
+        "is_deleted": false,
+        "primary_btn_link": "/about",
+        "primary_btn_text": "Learn More",
+        "secondary_btn_link": "/projects",
+        "secondary_btn_text": "Our Projects",
+        "status": "published",
+        "subtitle": "Every child deserves the opportunity to learn, grow and succeed. We support underprivileged students through scholarships, mentoring, career guidance and skill development to help them build a brighter future.",
+        "title": "Empowering Lives Through",
+        "title_accent": "Education",
+        "updated_at": "2026-08-14T11:00:26"
+      },
+      {
+        "created_at": "2026-07-22T12:36:51",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 2,
+        "id": 2,
+        "image_url": "/uploads/hero-banners/hero-employment.png",
+        "is_deleted": false,
+        "primary_btn_link": "/volunteer",
+        "primary_btn_text": "Join Us",
+        "secondary_btn_link": "/#impact",
+        "secondary_btn_text": "Our Impact",
+        "status": "published",
+        "subtitle": "A good job can transform a family's future. Through employability training, career guidance, job fairs and placement support, we help young people become job-ready and connect them with meaningful employment opportunities.",
+        "title": "Creating Opportunities Through",
+        "title_accent": "Employment",
+        "updated_at": "2026-08-14T11:00:26"
+      },
+      {
+        "created_at": "2026-07-22T12:36:51",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 3,
+        "id": 3,
+        "image_url": "/uploads/hero-banners/hero-community-impact.png",
+        "is_deleted": false,
+        "primary_btn_link": "/support-us",
+        "primary_btn_text": "Support Us",
+        "secondary_btn_link": "/what-we-do",
+        "secondary_btn_text": "Our Mission",
+        "status": "published",
+        "subtitle": "We empower individuals and families through skill development, entrepreneurship support, healthcare initiatives and community development programs, enabling them to become self-reliant and lead dignified lives.",
+        "title": "Building Stronger",
+        "title_accent": "Communities",
+        "updated_at": "2026-08-14T11:00:26"
+      }
+    ],
+    "home_projects": [
+      {
+        "created_at": "2026-07-22T12:36:51",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 1,
+        "id": 2,
+        "image_url": "/uploads/home-projects/home-project-etp.png",
+        "is_deleted": false,
+        "status": "published",
+        "title": "Employability Training Program (ETP)",
+        "updated_at": "2026-08-14T11:00:26"
+      },
+      {
+        "created_at": "2026-07-22T12:36:51",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 2,
+        "id": 1,
+        "image_url": "/uploads/home-projects/home-project-mega-job-fair.png",
+        "is_deleted": false,
+        "status": "published",
+        "title": "Mega Job Fair",
+        "updated_at": "2026-08-14T11:00:26"
+      },
+      {
+        "created_at": "2026-07-22T12:36:51",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 3,
+        "id": 3,
+        "image_url": "/uploads/home-projects/home-project-career-guidance.png",
+        "is_deleted": false,
+        "status": "published",
+        "title": "Career Guidance & Mentorship",
+        "updated_at": "2026-08-14T11:00:26"
+      },
+      {
+        "created_at": "2026-07-22T12:36:51",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 4,
+        "id": 4,
+        "image_url": "/uploads/home-projects/home-project-education-support.png",
+        "is_deleted": false,
+        "status": "published",
+        "title": "Education Support",
+        "updated_at": "2026-08-14T11:00:26"
+      }
+    ],
+    "home_gallery_items": [
+      {
+        "alt_text": "Large outdoor crowd queued for a community registration and outreach drive",
+        "created_at": "2026-08-01T08:12:14",
+        "deleted_at": null,
+        "deleted_by": null,
+        "description": "A massive turnout of community members gathering for an organized event, showcasing large-scale engagement.",
+        "display_order": 1,
+        "id": 1,
+        "image_url": "/uploads/home-gallery/community-registration-drive.png",
+        "is_deleted": false,
+        "status": "published",
+        "title": "Community Outreach & Registration Drive",
+        "updated_at": "2026-08-14T11:00:26"
+      },
+      {
+        "alt_text": "Organizers assisting participants with registration at a community event desk",
+        "created_at": "2026-08-01T08:12:14",
+        "deleted_at": null,
+        "deleted_by": null,
+        "description": "Local residents receive guidance and register for essential services at a dedicated event hub.",
+        "display_order": 2,
+        "id": 3,
+        "image_url": "/uploads/home-gallery/community-event-registration.png",
+        "is_deleted": false,
+        "status": "published",
+        "title": "Community Outreach and Registration",
+        "updated_at": "2026-08-14T11:00:26"
+      },
+      {
+        "alt_text": "Presenter leading an AMP Ahmedabad Chapter workshop for seated members",
+        "created_at": "2026-08-01T08:12:14",
+        "deleted_at": null,
+        "deleted_by": null,
+        "description": "Members attend a professional development workshop focused on community initiatives.",
+        "display_order": 3,
+        "id": 4,
+        "image_url": "/uploads/home-gallery/amp-ahmedabad-chapter-workshop.png",
+        "is_deleted": false,
+        "status": "published",
+        "title": "AMP Ahmedabad Chapter Meeting",
+        "updated_at": "2026-08-14T11:00:26"
+      },
+      {
+        "alt_text": "Speaker at the podium during the Mega Job Fair at Byculla, Mumbai",
+        "created_at": "2026-08-01T08:12:14",
+        "deleted_at": null,
+        "deleted_by": null,
+        "description": "Dignitaries and speakers at the Mega Job Fair held at Saboo Siddik College, Mumbai.",
+        "display_order": 4,
+        "id": 2,
+        "image_url": "/uploads/home-gallery/mega-job-fair-byculla-mumbai.png",
+        "is_deleted": false,
+        "status": "published",
+        "title": "Mega Job Fair at Byculla, Mumbai",
+        "updated_at": "2026-08-14T11:00:26"
+      },
+      {
+        "alt_text": "Audience seated under a tent at the Mega Job Fair in Ballari, Karnataka",
+        "created_at": "2026-08-01T08:12:14",
+        "deleted_at": null,
+        "deleted_by": null,
+        "description": "A large-scale recruitment event where hundreds of candidates gathered to meet employers.",
+        "display_order": 5,
+        "id": 5,
+        "image_url": "/uploads/home-gallery/mega-job-fair-ballari.png",
+        "is_deleted": false,
+        "status": "published",
+        "title": "Mega Job Fair — Ballari, Karnataka",
+        "updated_at": "2026-08-14T11:00:26"
+      },
+      {
+        "alt_text": "Interview stations filled with candidates at a Mega Job Fair college auditorium",
+        "created_at": "2026-08-01T08:12:14",
+        "deleted_at": null,
+        "deleted_by": null,
+        "description": "Interview stations and attendees engaged in career opportunities at the college auditorium.",
+        "display_order": 6,
+        "id": 6,
+        "image_url": "/uploads/home-gallery/mega-job-fair-thassim-beevi-college.png",
+        "is_deleted": false,
+        "status": "published",
+        "title": "Mega Job Fair at Thassim Beevi College",
+        "updated_at": "2026-08-14T11:00:26"
+      }
+    ],
+    "testimonials": [
+      {
+        "created_at": "2026-08-14T11:00:26",
+        "deleted_at": null,
+        "deleted_by": null,
+        "designation": "HR Recruiter, Godrej Appliances",
+        "display_order": 1,
+        "id": 10,
+        "is_deleted": false,
+        "location": "",
+        "message": "We have been associated with AMP India Foundation's employment initiatives for several years. Their job fairs are well-organized and help us connect with quality candidates. We look forward to continuing this valuable partnership in the years ahead.",
+        "name": "Mrinal Kanti Debnath",
+        "organisation": null,
+        "profile_image": "/uploads/testimonials/aamir-malik.png",
+        "rating": 5,
+        "status": "published",
+        "updated_at": "2026-08-14T11:00:26"
+      },
+      {
+        "created_at": "2026-08-14T11:00:26",
+        "deleted_at": null,
+        "deleted_by": null,
+        "designation": "Operations Officer, G4S Secure",
+        "display_order": 2,
+        "id": 11,
+        "is_deleted": false,
+        "location": "",
+        "message": "Participating in the employment drive was a rewarding experience. It gave me the opportunity to interact with talented candidates from diverse backgrounds while witnessing the Foundation's commitment to creating meaningful career opportunities for job seekers.",
+        "name": "Yawar Ihsan",
+        "organisation": null,
+        "profile_image": "/uploads/testimonials/imran-shaikh.png",
+        "rating": 5,
+        "status": "published",
+        "updated_at": "2026-08-14T11:00:26"
+      },
+      {
+        "created_at": "2026-08-14T11:00:26",
+        "deleted_at": null,
+        "deleted_by": null,
+        "designation": "Apprentice Recruitment Officer, Allied Resource Management Services Pvt. Ltd.",
+        "display_order": 3,
+        "id": 12,
+        "is_deleted": false,
+        "location": "",
+        "message": "It was a wonderful experience participating in the event. The programme was professionally managed and provided an excellent platform for connecting deserving candidates with employment opportunities.",
+        "name": "Chandrakant Khade",
+        "organisation": null,
+        "profile_image": "/uploads/testimonials/rahul-sharma.png",
+        "rating": 5,
+        "status": "published",
+        "updated_at": "2026-08-14T11:00:26"
+      },
+      {
+        "created_at": "2026-08-14T11:00:26",
+        "deleted_at": null,
+        "deleted_by": null,
+        "designation": "Chairman, F. Gheewala HR Consultants",
+        "display_order": 4,
+        "id": 13,
+        "is_deleted": false,
+        "location": "",
+        "message": "The Mumbai Job Fair was a well-coordinated initiative, and we appreciate the dedication and professionalism of the AMP India Foundation team. We value our association and look forward to participating in many more such impactful programmes.",
+        "name": "Mohammed Farrok Gheewala",
+        "organisation": null,
+        "profile_image": "/uploads/testimonials/imran-siddiqui.png",
+        "rating": 5,
+        "status": "published",
+        "updated_at": "2026-08-14T11:00:26"
+      },
+      {
+        "created_at": "2026-08-14T11:00:26",
+        "deleted_at": null,
+        "deleted_by": null,
+        "designation": "Lead Recruiter, PVK HR Solutions Pvt. Ltd.",
+        "display_order": 5,
+        "id": 14,
+        "is_deleted": false,
+        "location": "",
+        "message": "AMP India Foundation is creating meaningful social impact by connecting underprivileged youth with employment opportunities. Their commitment, transparency and nationwide outreach make them a trusted partner in community development.",
+        "name": "Vikram Singh",
+        "organisation": null,
+        "profile_image": "/uploads/testimonials/mohammed-arif.png",
+        "rating": 5,
+        "status": "published",
+        "updated_at": "2026-08-14T11:00:26"
+      },
+      {
+        "created_at": "2026-08-14T11:00:26",
+        "deleted_at": null,
+        "deleted_by": null,
+        "designation": "Co-Founder & Managing Partner, Nutra Essenza Wellness LLP",
+        "display_order": 6,
+        "id": 15,
+        "is_deleted": false,
+        "location": "",
+        "message": "My association with AMP India Foundation's Employment Assistance Cell has been truly inspiring. Their dedication to career guidance, mentoring and skill development is empowering thousands of young people and helping build a stronger and more confident society.",
+        "name": "Mohammed Ekramuddin Shaikh",
+        "organisation": null,
+        "profile_image": "/uploads/testimonials/mohammed-ekramuddin-shaikh.png",
+        "rating": 5,
+        "status": "published",
+        "updated_at": "2026-08-14T11:00:26"
+      }
+    ],
+    "featured_events": [
+      {
+        "banner_image": "/uploads/featured-events/kupwara-mega-job-fair.jpeg",
+        "category": "Employment",
+        "created_at": "2026-07-22T12:36:51",
+        "deleted_at": null,
+        "deleted_by": null,
+        "description": "A Mega Job Fair connecting job seekers with employers across multiple industries and creating opportunities for meaningful employment.",
+        "display_order": 1,
+        "event_date": "22 August 2026",
+        "event_time": "",
+        "id": 1,
+        "is_deleted": false,
+        "status": "published",
+        "title": "Kupwara Mega Job Fair",
+        "updated_at": "2026-08-14T11:00:26",
+        "venue": "Kupwara, Jammu & Kashmir"
+      }
+    ],
+    "upcoming_events": [
+      {
+        "category": "Employment",
+        "created_at": "2026-07-22T12:36:51",
+        "deleted_at": null,
+        "deleted_by": null,
+        "description": "A Mega Job Fair connecting job seekers with employers across multiple industries and creating opportunities for meaningful employment.",
+        "display_order": 1,
+        "event_date": "22 August 2026",
+        "id": 2,
+        "image_url": "/uploads/upcoming-events/kupwara-mega-job-fair.jpeg",
+        "is_deleted": false,
+        "status": "published",
+        "title": "Kupwara Mega Job Fair",
+        "updated_at": "2026-08-14T11:00:26",
+        "venue": "Kupwara, Jammu & Kashmir"
+      }
+    ],
+    "gallery_items": [
+      {
+        "alt_text": null,
+        "category": "Employment",
+        "created_at": "2026-08-14T11:00:26",
+        "deleted_at": null,
+        "deleted_by": null,
+        "description": "AMP, in partnership with Hamdard Learning & Welfare Society, organised a mega Job Fair at IITM campus, Hyderpora, Srinagar. The event registered 2,769 candidates, with 1,606 interviewed and 404 candidates shortlisted and selected.",
+        "display_order": 1,
+        "event_date": "30 August 2025",
+        "id": 7,
+        "image_url": "/uploads/past-events/srinagar-job-fair.jpg",
+        "is_deleted": false,
+        "location": null,
+        "status": "published",
+        "title": "AMP's 2nd Srinagar, Kashmir Job Fair",
+        "updated_at": "2026-08-14T11:00:26",
+        "venue": "Srinagar, Jammu & Kashmir",
+        "year": null
+      },
+      {
+        "alt_text": null,
+        "category": "Employment",
+        "created_at": "2026-08-14T11:00:26",
+        "deleted_at": null,
+        "deleted_by": null,
+        "description": "AMP, in partnership with Govt. Girls' General Degree College, organised a Job Fair in Kolkata with 492 registered candidates and 18 participating companies offering 2,800+ job vacancies. 288 candidates were shortlisted and selected.",
+        "display_order": 2,
+        "event_date": "23 August 2025",
+        "id": 8,
+        "image_url": "/uploads/past-events/kolkata-job-fair.jpg",
+        "is_deleted": false,
+        "location": null,
+        "status": "published",
+        "title": "AMP Kolkata Job Fair",
+        "updated_at": "2026-08-14T11:00:26",
+        "venue": "Kolkata, West Bengal",
+        "year": null
+      },
+      {
+        "alt_text": null,
+        "category": "Employment",
+        "created_at": "2026-08-14T11:00:26",
+        "deleted_at": null,
+        "deleted_by": null,
+        "description": "AMP organised a Mega Job Fair at Lavanya Degree College, Doddaballapur, in partnership with Lavanya Group of Institutions. The event attracted 215 candidates, with 9 companies offering 1,972+ vacancies and 113 candidates shortlisted and selected.",
+        "display_order": 3,
+        "event_date": "12 April 2025",
+        "id": 9,
+        "image_url": "/uploads/past-events/doddaballapur-job-fair.jpg",
+        "is_deleted": false,
+        "location": null,
+        "status": "published",
+        "title": "AMP Mega Job Fair in Doddaballapur",
+        "updated_at": "2026-08-14T11:00:26",
+        "venue": "Doddaballapur, Karnataka",
+        "year": null
+      },
+      {
+        "alt_text": null,
+        "category": "Employment",
+        "created_at": "2026-08-14T11:00:26",
+        "deleted_at": null,
+        "deleted_by": null,
+        "description": "AMP, in association with World Memon Organisation and Memon Community Trust, organised a Mega Job Fair at ITM College, Nanded. Around 1,000 candidates were interviewed, with 450+ selected and shortlisted and 33 corporates and recruiters participating.",
+        "display_order": 4,
+        "event_date": "11 January 2025",
+        "id": 10,
+        "image_url": "/uploads/past-events/nanded-job-fair.jpg",
+        "is_deleted": false,
+        "location": null,
+        "status": "published",
+        "title": "AMP Mega Job Fair in Nanded",
+        "updated_at": "2026-08-14T11:00:26",
+        "venue": "Nanded, Maharashtra",
+        "year": null
+      },
+      {
+        "alt_text": null,
+        "category": "Education",
+        "created_at": "2026-08-14T11:00:26",
+        "deleted_at": null,
+        "deleted_by": null,
+        "description": "AIF/AMP launched the National Talent Search 2025 programme and felicitated the National Awardees, bringing together distinguished guests, professionals and community leaders to celebrate talent, education and achievement.",
+        "display_order": 5,
+        "event_date": "7 December 2024",
+        "id": 11,
+        "image_url": "/uploads/past-events/nts-2025.jpg",
+        "is_deleted": false,
+        "location": null,
+        "status": "published",
+        "title": "AMP National Talent Search 2025 – Grand Launch",
+        "updated_at": "2026-08-14T11:00:26",
+        "venue": "Pan India",
+        "year": null
+      },
+      {
+        "alt_text": null,
+        "category": "Employment",
+        "created_at": "2026-08-14T11:00:26",
+        "deleted_at": null,
+        "deleted_by": null,
+        "description": "AMP, along with Pir Makhdum Saheb Charitable Trust and Bombay Catholic Sabha, organised a Free Mega Job Fair at Sacred Heart Boys School, Santacruz, Mumbai. The event had 1,768 candidates interviewed, with 80 selected and 554 shortlisted for the next round.",
+        "display_order": 6,
+        "event_date": "17 August 2024",
+        "id": 12,
+        "image_url": "/uploads/past-events/mumbai-unity-job-fair-2024.jpg",
+        "is_deleted": false,
+        "location": null,
+        "status": "published",
+        "title": "AMP Unity Job Fair at Mumbai 2024",
+        "updated_at": "2026-08-14T11:00:26",
+        "venue": "Mumbai, Maharashtra",
+        "year": null
+      }
+    ],
+    "navbar_items": [
+      {
+        "created_at": "2026-08-01T06:34:54",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 1,
+        "href": "/home",
+        "id": 1,
+        "is_deleted": false,
+        "item_key": null,
+        "item_type": "link",
+        "label": "HOME",
+        "parent_key": null,
+        "status": "published",
+        "updated_at": "2026-08-01T06:34:54"
+      },
+      {
+        "created_at": "2026-08-01T06:34:54",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 2,
+        "href": "/about",
+        "id": 2,
+        "is_deleted": false,
+        "item_key": null,
+        "item_type": "link",
+        "label": "ABOUT US",
+        "parent_key": null,
+        "status": "published",
+        "updated_at": "2026-08-03T07:13:01"
+      },
+      {
+        "created_at": "2026-08-01T06:34:54",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 3,
+        "href": "/projects/education",
+        "id": 3,
+        "is_deleted": false,
+        "item_key": "projects",
+        "item_type": "dropdown",
+        "label": "PROJECTS",
+        "parent_key": null,
+        "status": "published",
+        "updated_at": "2026-08-01T06:34:54"
+      },
+      {
+        "created_at": "2026-08-01T06:34:54",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 4,
+        "href": "/projects/education",
+        "id": 4,
+        "is_deleted": false,
+        "item_key": null,
+        "item_type": "link",
+        "label": "Education",
+        "parent_key": "projects",
+        "status": "published",
+        "updated_at": "2026-08-01T06:34:54"
+      },
+      {
+        "created_at": "2026-08-01T06:34:54",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 5,
+        "href": "/projects/medical",
+        "id": 5,
+        "is_deleted": false,
+        "item_key": null,
+        "item_type": "link",
+        "label": "Medical Relief",
+        "parent_key": "projects",
+        "status": "published",
+        "updated_at": "2026-08-01T06:34:54"
+      },
+      {
+        "created_at": "2026-08-01T06:34:54",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 6,
+        "href": "/projects/employment",
+        "id": 6,
+        "is_deleted": false,
+        "item_key": null,
+        "item_type": "link",
+        "label": "Employment Support",
+        "parent_key": "projects",
+        "status": "published",
+        "updated_at": "2026-08-01T06:34:54"
+      },
+      {
+        "created_at": "2026-08-01T06:34:54",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 7,
+        "href": "/projects/empowerment",
+        "id": 7,
+        "is_deleted": false,
+        "item_key": null,
+        "item_type": "link",
+        "label": "Economic Empowerment",
+        "parent_key": "projects",
+        "status": "published",
+        "updated_at": "2026-08-01T06:34:54"
+      },
+      {
+        "created_at": "2026-08-01T06:34:54",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 8,
+        "href": "/projects/mentorship",
+        "id": 8,
+        "is_deleted": false,
+        "item_key": null,
+        "item_type": "link",
+        "label": "Student Mentorship",
+        "parent_key": "projects",
+        "status": "published",
+        "updated_at": "2026-08-01T06:34:54"
+      },
+      {
+        "created_at": "2026-08-01T06:34:54",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 9,
+        "href": "/projects/training",
+        "id": 9,
+        "is_deleted": false,
+        "item_key": null,
+        "item_type": "link",
+        "label": "Employment Training",
+        "parent_key": "projects",
+        "status": "published",
+        "updated_at": "2026-08-01T06:34:54"
+      },
+      {
+        "created_at": "2026-08-01T06:34:54",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 10,
+        "href": "/events",
+        "id": 10,
+        "is_deleted": false,
+        "item_key": null,
+        "item_type": "link",
+        "label": "EVENTS",
+        "parent_key": null,
+        "status": "published",
+        "updated_at": "2026-08-01T06:34:54"
+      },
+      {
+        "created_at": "2026-08-01T06:34:54",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 11,
+        "href": "/volunteer",
+        "id": 11,
+        "is_deleted": false,
+        "item_key": null,
+        "item_type": "link",
+        "label": "VOLUNTEER",
+        "parent_key": null,
+        "status": "published",
+        "updated_at": "2026-08-01T06:34:54"
+      },
+      {
+        "created_at": "2026-08-01T06:34:54",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 12,
+        "href": "/support-us",
+        "id": 12,
+        "is_deleted": false,
+        "item_key": null,
+        "item_type": "link",
+        "label": "SUPPORT US",
+        "parent_key": null,
+        "status": "published",
+        "updated_at": "2026-08-01T06:34:54"
+      },
+      {
+        "created_at": "2026-08-01T06:34:54",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 13,
+        "href": "/contact",
+        "id": 13,
+        "is_deleted": false,
+        "item_key": null,
+        "item_type": "link",
+        "label": "CONTACT",
+        "parent_key": null,
+        "status": "published",
+        "updated_at": "2026-08-01T06:34:54"
+      }
+    ],
+    "footer_links": [
+      {
+        "created_at": "2026-08-01T06:34:54",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 1,
+        "href": "/",
+        "id": 1,
+        "is_deleted": false,
+        "label": "Home",
+        "status": "published",
+        "updated_at": "2026-08-01T06:34:54"
+      },
+      {
+        "created_at": "2026-08-01T06:34:54",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 2,
+        "href": "/about",
+        "id": 2,
+        "is_deleted": false,
+        "label": "About Us",
+        "status": "published",
+        "updated_at": "2026-08-01T06:34:54"
+      },
+      {
+        "created_at": "2026-08-01T06:34:54",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 3,
+        "href": "/what-we-do",
+        "id": 3,
+        "is_deleted": false,
+        "label": "What We Do",
+        "status": "published",
+        "updated_at": "2026-08-01T06:34:54"
+      },
+      {
+        "created_at": "2026-08-01T06:34:54",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 4,
+        "href": "/projects",
+        "id": 4,
+        "is_deleted": false,
+        "label": "Projects",
+        "status": "published",
+        "updated_at": "2026-08-01T06:34:54"
+      },
+      {
+        "created_at": "2026-08-01T06:34:54",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 5,
+        "href": "/events",
+        "id": 5,
+        "is_deleted": false,
+        "label": "Events",
+        "status": "published",
+        "updated_at": "2026-08-01T06:34:54"
+      },
+      {
+        "created_at": "2026-08-01T06:34:54",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 6,
+        "href": "/volunteer",
+        "id": 6,
+        "is_deleted": false,
+        "label": "Join Us / Volunteer",
+        "status": "published",
+        "updated_at": "2026-08-01T06:34:54"
+      },
+      {
+        "created_at": "2026-08-01T06:34:54",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 7,
+        "href": "/support-us",
+        "id": 7,
+        "is_deleted": false,
+        "label": "Support Us",
+        "status": "published",
+        "updated_at": "2026-08-01T06:34:54"
+      },
+      {
+        "created_at": "2026-08-01T06:34:54",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 8,
+        "href": "/contact",
+        "id": 8,
+        "is_deleted": false,
+        "label": "Contact",
+        "status": "published",
+        "updated_at": "2026-08-01T06:34:54"
+      },
+      {
+        "created_at": "2026-08-01T06:34:54",
+        "deleted_at": null,
+        "deleted_by": null,
+        "display_order": 9,
+        "href": "/terms-and-conditions",
+        "id": 9,
+        "is_deleted": false,
+        "label": "Terms & Conditions",
+        "status": "published",
+        "updated_at": "2026-08-01T06:34:54"
+      }
+    ],
+    "navbar_settings": [
+      {
+        "created_at": "2026-08-01T06:34:54",
+        "id": 1,
+        "logo_alt": "AMP Logo",
+        "logo_link": "/",
+        "logo_url": "/assets/logo.png",
+        "updated_at": "2026-08-01T06:34:54"
+      }
+    ],
+    "footer_settings": [
+      {
+        "about_heading": "ABOUT US",
+        "about_link_href": "/about",
+        "about_link_text": "READ MORE →",
+        "about_text": "AMP India Foundation is a non-profit organization dedicated to regularise and scale up socio-economic development welfare activities. We empower underprivileged youth through sustainable educational models, rigorous training, and professional mentorship.",
+        "address_label": "Address:",
+        "address_text": "Room 9, 1st Floor, Halima Manzil, Mirza Ghalib Marg, A Clare Road, Nagpada, Mumbai - 400008",
+        "contact_heading": "GET IN TOUCH",
+        "copyright_highlight": "AMP India Foundation",
+        "copyright_text": "Copyrights © 2026 All Rights Reserved. Powered by ",
+        "created_at": "2026-08-01T06:34:54",
+        "cta_button_link": "/volunteer",
+        "cta_button_text": "BECOME A VOLUNTEER",
+        "cta_heading": "Join Our Mission to Empower Lives Through Education & Employment.",
+        "email_label": "Email:",
+        "email_text": "contact@ampindiafoundation.org",
+        "facebook_url": "https://www.facebook.com/ampindiafoundation/",
+        "follow_heading": "FOLLOW US",
+        "id": 1,
+        "instagram_url": "https://www.instagram.com/ampindiafoundation/",
+        "phone_label": "Phone:",
+        "phone_text": "+91 8291101312",
+        "recent_focus_heading": "RECENT FOCUS",
+        "updated_at": "2026-08-14T11:00:26",
+        "useful_links_heading": "USEFUL LINKS"
+      }
+    ]
+  }
+}

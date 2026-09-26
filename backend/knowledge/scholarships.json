@@ -1,0 +1,42 @@
+{
+  "id": "scholarships",
+  "title": "Scholarship Programs",
+  "summary": "AMP India Foundation offers scholarships and financial support so meritorious, underprivileged students can pursue education and build sustainable livelihoods.",
+  "programs": [
+    {
+      "name": "AMP Higher Education Scholarship",
+      "description": "Scholarships enabling meritorious students to pursue higher education."
+    },
+    {
+      "name": "Orphans' Basic Education Support",
+      "description": "Financial assistance supporting basic education for orphaned children."
+    },
+    {
+      "name": "Self-Employment Assistance",
+      "description": "Support that helps beneficiaries start or grow livelihood opportunities."
+    },
+    {
+      "name": "Critical Illness & Medical Support",
+      "description": "Financial help for critical illness and essential medical services."
+    }
+  ],
+  "how_to_apply": "Deserving students can apply through AMP's designated online crowdfunding and welfare application portals. Submissions are transparently verified based strictly on merit and economic need criteria.",
+  "related_event": {
+    "title": "Scholarship Awareness & Education Workshop",
+    "date": "18 Jan 2026",
+    "venue": "Delhi NCR",
+    "description": "Guidance on scholarship applications, higher education pathways, and Centres of Excellence programs."
+  },
+  "keywords": [
+    "scholarship",
+    "scholarships",
+    "financial support",
+    "higher education",
+    "education fund",
+    "apply scholarship",
+    "student funding",
+    "merit",
+    "orphans education"
+  ],
+  "page": "/about"
+}

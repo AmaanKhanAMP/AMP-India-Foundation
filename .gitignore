@@ -1,0 +1,39 @@
+tmp-verify/
+# Node
+node_modules/
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node compile cache
+node-compile-cache/
+.tmp/
+tmp/
+tmp-verify/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build output
+.next/
+dist/
+build/
+out/
+
+# Logs
+*.log
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

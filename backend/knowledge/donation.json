@@ -1,0 +1,32 @@
+{
+  "id": "donation",
+  "title": "Donate / Support Us",
+  "summary": "You can support AMP India Foundation through a direct bank transfer. Direct clearing helps more of your contribution reach beneficiaries by avoiding third-party platform fees.",
+  "bank": {
+    "bank_name": "Kotak Mahindra",
+    "account_name": "AMP India Foundation",
+    "account_number": "3114476665",
+    "account_type": "Savings",
+    "ifsc": "KKBK0001348"
+  },
+  "notes": [
+    "Use the bank details below for direct donations.",
+    "Visit the Support Us page on the website for full transparency and impact information."
+  ],
+  "keywords": [
+    "donate",
+    "donation",
+    "donations",
+    "support",
+    "contribute",
+    "contribution",
+    "fund",
+    "funding",
+    "bank",
+    "transfer",
+    "ifsc",
+    "charity",
+    "give"
+  ],
+  "page": "/support-us"
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "table": "hero_banners",
+    "record": "Empowering Lives Through",
+    "local_image_url": "/uploads/hero-banners/hero-education.png",
+    "railway_image_url": "/uploads/hero-banners/hero-education.png",
+    "local_file_exists": true,
+    "railway_file_exists": false,
+    "http_status": 404,
+    "status": "MISSING_IN_PROD"
+  },
+  {
+    "table": "hero_banners",
+    "record": "Creating Opportunities Through",
+    "local_image_url": "/uploads/hero-banners/hero-employment.png",
+    "railway_image_url": "/uploads/hero-banners/hero-employment.png",
+    "local_file_exists": true,
+    "railway_file_exists": false,
+    "http_status": 404,
+    "status": "MISSING_IN_PROD"
+  },
+  {
+    "table": "hero_banners",
+    "record": "Building Stronger",
+    "local_image_url": "/uploads/hero-banners/hero-community-impact.png",
+    "railway_image_url": "/uploads/hero-banners/hero-community-impact.png",
+    "local_file_exists": true,
+    "railway_file_exists": false,
+    "http_status": 404,
+    "status": "MISSING_IN_PROD"
+  },
+  {
+    "table": "home_projects",
+    "record": "Employability Training Program (ETP)",
+    "local_image_url": "/uploads/home-projects/home-project-etp.png",
+    "railway_image_url": "/uploads/home-projects/home-project-etp.png",
+    "local_file_exists": true,
+    "railway_file_exists": false,
+    "http_status": 404,
+    "status": "MISSING_IN_PROD"
+  },
+  {
+    "table": "home_projects",
+    "record": "Mega Job Fair",
+    "local_image_url": "/uploads/home-projects/home-project-mega-job-fair.png",
+    "railway_image_url": "/uploads/home-projects/home-project-mega-job-fair.png",
+    "local_file_exists": true,
+    "railway_file_exists": false,
+    "http_status": 404,
+    "status": "MISSING_IN_PROD"
+  },
+  {
+    "table": "home_projects",
+    "record": "Career Guidance & Mentorship",
+    "local_image_url": "/uploads/home-projects/home-project-career-guidance.png",
+    "railway_image_url": "/uploads/home-projects/home-project-career-guidance.png",
+    "local_file_exists": true,
+    "railway_file_exists": false,
+    "http_status": 404,
+    "status": "MISSING_IN_PROD"
+  },
+  {
+    "table": "home_projects",
+    "record": "Education Support",
+    "local_image_url": "/uploads/home-projects/home-project-education-support.png",
+    "railway_image_url": "/uploads/home-projects/home-project-education-support.png",
+    "local_file_exists": true,
+    "railway_file_exists": false,
+    "http_status": 404,
+    "status": "MISSING_IN_PROD"
+  },
+  {
+    "table": "home_gallery_items",
+    "record": "Community Outreach & Registration Drive",
+    "local_image_url": "/uploads/home-gallery/community-registration-drive.png",
+    "railway_image_url": "/uploads/home-gallery/community-registration-drive.png",
+    "local_file_exists": true,
+    "railway_file_exists": false,
+    "http_status": 404,
+    "status": "MISSING_IN_PROD"
+  },
+  {
+    "table": "home_gallery_items",
+    "record": "Community Outreach and Registration",
+    "local_image_url": "/uploads/home-gallery/community-event-registration.png",
+    "railway_image_url": "/uploads/home-gallery/community-event-registration.png",
+    "local_file_exists": true,
+    "railway_file_exists": false,
+    "http_status": 404,
+    "status": "MISSING_IN_PROD"
+  },
+  {
+    "table": "home_gallery_items",
+    "record": "AMP Ahmedabad Chapter Meeting",
+    "local_image_url": "/uploads/home-gallery/amp-ahmedabad-chapter-workshop.png",
+    "railway_image_url": "/uploads/home-gallery/amp-ahmedabad-chapter-workshop.png",
+    "local_file_exists": true,
+    "railway_file_exists": false,
+    "http_status": 404,
+    "status": "MISSING_IN_PROD"
+  },
+  {
+    "table": "home_gallery_items",
+    "record": "Mega Job Fair at Byculla, Mumbai",
+    "local_image_url": "/uploads/home-gallery/mega-job-fair-byculla-mumbai.png",
+    "railway_image_url": "/uploads/home-gallery/mega-job-fair-byculla-mumbai.png",
+    "local_file_exists": true,
+    "railway_file_exists": false,
+    "http_status": 404,
+    "status": "MISSING_IN_PROD"
+  },
+  {
+    "table": "home_gallery_items",
+    "record": "Mega Job Fair — Ballari, Karnataka",
+    "local_image_url": "/uploads/home-gallery/mega-job-fair-ballari.png",
+    "railway_image_url": "/uploads/home-gallery/mega-job-fair-ballari.png",
+    "local_file_exists": true,
+    "railway_file_exists": false,
+    "http_status": 404,
+    "status": "MISSING_IN_PROD"
+  },
+  {
+    "table": "home_gallery_items",
+    "record": "Mega Job Fair at Thassim Beevi College",
+    "local_image_url": "/uploads/home-gallery/mega-job-fair-thassim-beevi-college.png",
+    "railway_image_url": "/uploads/home-gallery/mega-job-fair-thassim-beevi-college.png",
+    "local_file_exists": true,
+    "railway_file_exists": false,
+    "http_status": 404,
+    "status": "MISSING_IN_PROD"
+  }
+]

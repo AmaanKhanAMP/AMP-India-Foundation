@@ -1,0 +1,81 @@
+{
+  "id": "about",
+  "title": "About AMP India Foundation",
+  "summary": "AMP India Foundation is a registered non-profit organisation delivering structured social services for underprivileged communities across India. It is managed through professional volunteer resources.",
+  "mission": "AMP India Foundation is dedicated to promoting inclusive social progression by bridging structural development gaps for the under-served and needy all over India, entirely managed through professional volunteer resources.",
+  "vision": "A unified central vision of trusted professional philanthropy that uplifts communities through education, employment, skill development, medical relief, and mentorship—without bias of caste, community, creed, or religion.",
+  "values": [
+    {
+      "title": "Trusted Professional Philanthropy",
+      "description": "Managed voluntarily by verified industry professionals applying advanced corporate workflows to maximize community progress."
+    },
+    {
+      "title": "Good Will Volunteers",
+      "description": "A powerful, nationwide human logistics network prepared to distribute critical care resources dynamically on the ground."
+    },
+    {
+      "title": "Centres of Excellence",
+      "description": "State-of-the-art incubation hubs where under-served students receive targeted professional guidance and scholarships."
+    }
+  ],
+  "avenues": [
+    {
+      "title": "Economic Empowerment",
+      "description": "Providing financial literacy, micro-grants, and self-help group setups."
+    },
+    {
+      "title": "Employment Support",
+      "description": "Connecting job seekers with career opportunities and job fairs."
+    },
+    {
+      "title": "Skill Development",
+      "description": "Vocational training programs tailored for modern industry needs."
+    },
+    {
+      "title": "Medical Relief",
+      "description": "Emergency medical funds, health camps, and critical care access."
+    },
+    {
+      "title": "Student Mentorship",
+      "description": "Guiding youth through career counseling and academic pathways."
+    }
+  ],
+  "objectives": [
+    {
+      "title": "Education & Skills Training",
+      "description": "Promoting education, including special education and employment-enhancing vocation skills training for a sustainable future."
+    },
+    {
+      "title": "Scholarships & Financial Support",
+      "description": "Exclusive fund for Higher Education scholarships, Orphans' Basic Education support, Self-Employment assistance, critical illness support and medical services."
+    },
+    {
+      "title": "Centres of Excellence",
+      "description": "Mentoring, coaching and professional & career guidance for meritorious but underprivileged students."
+    },
+    {
+      "title": "Crowd Funding Platform",
+      "description": "Online platforms bringing together donors and help-seekers for medical relief, education and livelihoods."
+    },
+    {
+      "title": "Community Upliftment",
+      "description": "Activities towards upliftment of the underprivileged without any bias of caste, community, creed and religion."
+    }
+  ],
+  "keywords": [
+    "about",
+    "amp",
+    "amp india",
+    "foundation",
+    "mission",
+    "vision",
+    "who are you",
+    "what is amp",
+    "organisation",
+    "organization",
+    "ngo",
+    "values",
+    "objectives"
+  ],
+  "page": "/about"
+}
