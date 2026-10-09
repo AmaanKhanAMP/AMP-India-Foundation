@@ -6,7 +6,6 @@ import EventsHero from '@/components/events/EventsHero';
 import FeaturedEvent from '@/components/events/FeaturedEvent';
 import UpcomingEvents from '@/components/events/UpcomingEvents';
 import EventCategories from '@/components/events/EventCategories';
-import EventTimeline from '@/components/events/EventTimeline';
 import PastEventsGallery from '@/components/events/PastEventsGallery';
 import VolunteerCTA from '@/components/events/VolunteerCTA';
 import { loadEventsCmsClient } from '@/lib/contentApi';
@@ -103,7 +102,6 @@ const Events = ({ initialCms = null }) => {
         />
       ) : null}
       <PastEventsGallery events={cms.pastEvents} />
-      <EventTimeline />
       <EventCategories />
       <VolunteerCTA
         title="Be Part of Our Next Event"

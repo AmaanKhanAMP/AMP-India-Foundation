@@ -26,7 +26,8 @@ const togetherForChangeImage =
 
 /* Temporarily hidden on Support Us — set to true to restore these options. */
 const SHOW_ONLINE_DONATION = false;
-const SHOW_UPI_DONATION = false;
+const SHOW_UPI_DONATION = true;
+const UPI_ID = 'AIFIndia@kotakpay';
 
 const MotionLink = motion.create(Link);
 
@@ -66,13 +67,11 @@ const Support = () => {
     };
   }, []);
 
-  const extra = {};
   const bankAccountMatrix = [
-    { label: 'Account Name', value: extra.account_name || 'AMP India Foundation', allowCopy: false },
-    { label: 'Bank', value: extra.bank || 'Kotak Mahindra Bank', allowCopy: false },
-    { label: 'Account Number', value: extra.account_number || '3114476665', allowCopy: true },
-    { label: 'Account Type', value: extra.account_type || 'Savings Account', allowCopy: false },
-    { label: 'IFSC Code', value: extra.ifsc || 'KKBK0001348', allowCopy: true }
+    { label: 'Name', value: 'AMP India Foundation', allowCopy: false },
+    { label: 'Account No.', value: '3114417665', allowCopy: true },
+    { label: 'IFSC Code', value: 'KKBK0001348', allowCopy: true },
+    { label: 'Branch', value: 'Mumbai Central', allowCopy: false }
   ];
 
   const executeClipboardProtocol = (valueString, targetLabel) => {
@@ -213,14 +212,14 @@ const Support = () => {
                   />
                 </div>
                 <div className="donation-timeline-body">
-                  <h3>3. UPI Donation</h3>
+                  <h3>UPI Donation</h3>
                   <p className="donation-option-label">AMP UPI ID</p>
                   <div className="donation-upi-badge">
-                    <span>AMPINDIA@KOTAK</span>
+                    <span>{UPI_ID}</span>
                     <button
                       type="button"
                       className={`donation-upi-copy su-copy-btn ${copiedFieldToken === 'UPI' ? 'success-state' : ''}`}
-                      onClick={() => executeClipboardProtocol('AMPINDIA@KOTAK', 'UPI')}
+                      onClick={() => executeClipboardProtocol(UPI_ID, 'UPI')}
                       title="Copy UPI ID"
                       aria-label="Copy UPI ID"
                     >
@@ -233,6 +232,19 @@ const Support = () => {
                         </svg>
                       )}
                     </button>
+                  </div>
+                  <div className="donation-upi-pay">
+                    <p className="donation-upi-scan">Scan & Pay</p>
+                    <img
+                      className="donation-upi-qr"
+                      src="/assets/upi-qr.png"
+                      alt="QR code for UPI ID AIFIndia@kotakpay"
+                    />
+                    <img
+                      className="donation-upi-modes"
+                      src="/assets/upi-modes.png"
+                      alt="Pay with BHIM UPI, Google Pay, Paytm, PhonePe, and Kotak"
+                    />
                   </div>
                 </div>
               </RevealItem>

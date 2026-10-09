@@ -28,7 +28,7 @@ export const PROJECT_CATEGORIES = [
     title: 'Education',
     subtitle: 'Building Brighter Futures',
     href: '/projects/education',
-    image: assetSrc(ampAhmedabadWorkshop),
+    image: EMPLOYMENT_TRAINING_IMAGE,
     initiatives: [
       'Scholarships for deserving students',
       'Career Guidance Programmes',
@@ -56,7 +56,7 @@ export const PROJECT_CATEGORIES = [
     title: 'Skill Development',
     subtitle: 'Learning Skills for a Better Tomorrow',
     href: '/projects/training',
-    image: EMPLOYMENT_TRAINING_IMAGE,
+    image: assetSrc(ampAhmedabadWorkshop),
     initiatives: [
       'Vocational Training',
       'Technical Skills Development',

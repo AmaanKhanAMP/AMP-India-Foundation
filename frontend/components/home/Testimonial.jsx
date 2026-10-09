@@ -253,18 +253,7 @@ const Testimonial = ({ testimonials }) => {
     <section className="testimonials-section">
       <div className="testimonials-container">
         <header className="testimonials-header">
-          <h2>
-            SUCCESS <span className="text-blue-accent">STORIES</span>
-          </h2>
-          <div className="decorative-line-wrapper" aria-hidden="true">
-            <span className="line-segment short" />
-            <span className="line-segment long" />
-            <span className="line-segment short" />
-          </div>
-          <p className="section-intro-text">
-            Hear inspiring stories from students, job seekers, volunteers and beneficiaries whose
-            lives have been transformed through AMP India Foundation&apos;s initiatives.
-          </p>
+          <h2>TESTIMONIALS</h2>
         </header>
 
         <div

@@ -21,11 +21,6 @@ const fromEnv = apiRemotePattern(apiUrl);
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Nginx sends the public hostname. Without this, login redirects use the
-  // bind address and the browser is sent to https://localhost:3012.
-  experimental: {
-    trustHostHeader: true,
-  },
   images: {
     remotePatterns: [
       ...(fromEnv ? [fromEnv] : []),

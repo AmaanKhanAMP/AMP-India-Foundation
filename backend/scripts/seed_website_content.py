@@ -12,13 +12,10 @@ Usage (from backend/ with venv active):
 
 from __future__ import annotations
 
-import os
 import shutil
-import sys
 from pathlib import Path
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
+import _backend_path  # pylint: disable=unused-import
 from app import create_app
 from extensions import db
 from models.cms_models import (
@@ -38,7 +35,7 @@ from models.cms_models import (
     utcnow,
 )
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parent.parent.parent
 FRONTEND = ROOT / "frontend"
 UPLOADS = ROOT / "backend" / "uploads"
 
@@ -163,21 +160,21 @@ HOME_GALLERY = [
     {
         "image_url": u("home-gallery/community-registration-drive.png"),
         "alt_text": "Large outdoor crowd queued for a community registration and outreach drive",
-        "title": "Community Outreach & Registration Drive",
+        "title": "Youth Outreach & Employment Drive",
         "description": "A massive turnout of community members gathering for an organized event, showcasing large-scale engagement.",
         "display_order": 1,
     },
     {
         "image_url": u("home-gallery/community-event-registration.png"),
         "alt_text": "Organizers assisting participants with registration at a community event desk",
-        "title": "Community Outreach and Registration",
+        "title": "Guidance & Mentoring of Youth",
         "description": "Local residents receive guidance and register for essential services at a dedicated event hub.",
         "display_order": 2,
     },
     {
         "image_url": u("home-gallery/amp-ahmedabad-chapter-workshop.png"),
         "alt_text": "Presenter leading an AMP Ahmedabad Chapter workshop for seated members",
-        "title": "AMP Ahmedabad Chapter Meeting",
+        "title": "Skill Development Program",
         "description": "Members attend a professional development workshop focused on community initiatives.",
         "display_order": 3,
     },
@@ -198,7 +195,7 @@ HOME_GALLERY = [
     {
         "image_url": u("home-gallery/mega-job-fair-thassim-beevi-college.png"),
         "alt_text": "Interview stations filled with candidates at a Mega Job Fair college auditorium",
-        "title": "Mega Job Fair at Thassim Beevi College",
+        "title": "Mega Job Fair at Chennai, Tamil Nadu",
         "description": "Interview stations and attendees engaged in career opportunities at the college auditorium.",
         "display_order": 6,
     },

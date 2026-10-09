@@ -37,3 +37,15 @@ out/
 Thumbs.db
 .vscode/
 .idea/
+
+
+AGENTS.md
+CLAUDE.md
+.vercel/
+*.pem
+*.key
+*.p12
+*.pfx
+.cursor/
+backend/scripts/_tmp_*.py
+backend/scripts/_*.json

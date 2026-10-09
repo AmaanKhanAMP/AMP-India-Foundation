@@ -88,7 +88,7 @@ const Volunteer = () => {
 
           <div className="volunteer-floating-cohort">
             <div>
-              <span className="volunteer-mini-tag">LIVE COHORT</span>
+              <span className="volunteer-mini-tag">LIVE SUPPORT</span>
               <div className="volunteer-cohort-count">{liveVolunteers} volunteers</div>
             </div>
             <div className="volunteer-avatar-row">

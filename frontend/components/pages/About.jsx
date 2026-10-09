@@ -284,9 +284,8 @@ const About = () => {
                     </div>
                     <p className="about-vm-card-body">
                       To empower underprivileged communities through education, employment,
-                      healthcare, skill development, mentorship and sustainable livelihood
-                      initiatives by connecting professionals, volunteers, donors and institutions
-                      for lasting social impact.
+                      healthcare, skills, mentorship and sustainable livelihoods by connecting
+                      people and institutions for lasting social impact.
                     </p>
                   </div>
                 </motion.article>
@@ -367,10 +366,6 @@ const About = () => {
               <p className="wwd-intro-text">
                 AMP India Foundation works across multiple areas of social development to create opportunities and improve lives.
               </p>
-              <div className="wwd-badge-row">
-                <span className="wwd-line-accent"></span>
-                <span className="wwd-badge-text">Non-profit organization</span>
-              </div>
             </div>
           </motion.div>
 

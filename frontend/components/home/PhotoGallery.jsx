@@ -16,7 +16,7 @@ const FALLBACK_GALLERY = [
     id: 1,
     src: communityRegistrationDrive,
     alt: 'Large outdoor crowd queued for a community registration and outreach drive',
-    title: 'Community Outreach & Registration Drive',
+    title: 'Youth Outreach & Employment Drive',
     description:
       'A massive turnout of community members gathering for an organized event, showcasing large-scale engagement and participation.',
   },
@@ -24,7 +24,7 @@ const FALLBACK_GALLERY = [
     id: 2,
     src: communityEventRegistration,
     alt: 'Organizers assisting participants with registration at a community event desk',
-    title: 'Community Outreach and Registration',
+    title: 'Guidance & Mentoring of Youth',
     description:
       'A glimpse into one of our community outreach programs, where local residents receive guidance and register for essential services at a dedicated event hub.',
   },
@@ -32,7 +32,7 @@ const FALLBACK_GALLERY = [
     id: 3,
     src: ampAhmedabadWorkshop,
     alt: 'Presenter leading an AMP Ahmedabad Chapter workshop for seated members',
-    title: 'AMP Ahmedabad Chapter Meeting',
+    title: 'Skill Development Program',
     description:
       'Members of the Association of Muslim Professionals (AMP) Ahmedabad Chapter attend a professional development workshop and presentation focused on community initiatives.',
   },
@@ -56,7 +56,7 @@ const FALLBACK_GALLERY = [
     id: 6,
     src: megaJobFairThassimBeevi,
     alt: 'Interview stations filled with candidates at a Mega Job Fair college auditorium',
-    title: 'Mega Job Fair at Thassim Beevi Abdul Kader College',
+    title: 'Mega Job Fair at Chennai, Tamil Nadu',
     description:
       'A wide-angle view of the Mega Job Fair held in the college auditorium, showing numerous interview stations and attendees engaged in career opportunities.',
   },
@@ -92,6 +92,11 @@ const imageVariants = {
 const GalleryCardImage = ({ item }) => {
   const fallbackSrc = fallbackByTitle(FALLBACK_GALLERY, item.title, 'src');
   const { src, onError } = useCmsImageSrc(item.src, fallbackSrc);
+  // Next's optimizer returns 400 for localhost uploads (private IP). Cards
+  // with a bundled fallback recover in onError. This card has no matching
+  // fallback, so load its existing CMS file directly.
+  const loadExistingFileDirectly =
+    !fallbackSrc && typeof src === 'string' && /^https?:\/\//i.test(src);
   return (
     <Image
       src={src}
@@ -100,6 +105,7 @@ const GalleryCardImage = ({ item }) => {
       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
       className="home-gallery-image"
       loading="lazy"
+      unoptimized={loadExistingFileDirectly}
       onError={onError}
     />
   );

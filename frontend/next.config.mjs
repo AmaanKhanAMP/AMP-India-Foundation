@@ -19,6 +19,15 @@ const apiUrl = (process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000').repl
 );
 const fromEnv = apiRemotePattern(apiUrl);
 
+function isLoopbackApi(url) {
+  try {
+    const hostname = new URL(url).hostname;
+    return hostname === 'localhost' || hostname === '127.0.0.1';
+  } catch {
+    return false;
+  }
+}
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // Next 15 defaults staleTimes.dynamic to 0, so every Home/Events click
@@ -43,7 +52,19 @@ const nextConfig = {
     // Cap at 1920 so retina 100vw never requests a 3840px variant from Render.
     deviceSizes: [640, 750, 828, 1080, 1200, 1600, 1920],
     imageSizes: [16, 32, 48, 64, 96, 128, 140, 256, 384],
+    qualities: [75, 80],
     minimumCacheTTL: 86400,
+  },
+  async rewrites() {
+    // Local dev only. Same-origin /uploads is optimized internally, so the
+    // image optimizer never fetches the loopback API as a remote upstream.
+    if (!isLoopbackApi(apiUrl)) return [];
+    return [
+      {
+        source: '/uploads/:path*',
+        destination: `${apiUrl}/uploads/:path*`,
+      },
+    ];
   },
 };
 

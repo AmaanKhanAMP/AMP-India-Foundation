@@ -91,7 +91,7 @@ const Contact = () => {
       {/* Dynamic Immersive Background Image Banner */}
       <header 
         className="hero-section full-bleed-bg" 
-        style={{ backgroundImage: `linear-gradient(to right, rgba(0, 31, 71, 0.41) 30%, rgba(0, 21, 51, 0.85) 60%, rgba(2, 6, 23, 0.4) 100%), url(${heroImage})` }}
+        style={{ backgroundImage: `linear-gradient(to right, rgba(0, 31, 71, 0.26) 30%, rgba(0, 21, 51, 0.40) 60%, rgba(2, 6, 23, 0.12) 100%), url(${heroImage})` }}
       >
         <div className="hero-ambient-glow-1"></div>
         <div className="hero-content full-bleed-layout">
@@ -172,7 +172,7 @@ const Contact = () => {
                 <p className="section-tagline">Location map</p>
                 <h2 className="section-main-title text-heading">Visit our main office</h2>
                 <p className="section-explanatory-text">
-                  Our regional operations are anchored dynamically in Mumbai. View the high-fidelity structural vector details below or seamlessly shift to external routing maps.
+                  Our office is located in Mumbai. View our Location on the map or get directions on Google Maps.
                 </p>
               </div>
               <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="map-external-anchor-link">
@@ -213,7 +213,7 @@ const Contact = () => {
             <p className="section-tagline">Message form</p>
             <h2 className="section-main-title text-heading">Tell us how we can help</h2>
             <p className="section-explanatory-text">
-              Fill out our explicit workspace request terminal. Your message will be securely routed directly to the regional management team for verification and scheduling.
+              Please fill in the form below to contact us. Our team will get back to you soon.
             </p>
             <div className="form-response-metric-box">
               <div className="metric-header-title">

@@ -94,9 +94,7 @@ const CountUpItem = ({ target, suffix, label, icon, startTrigger }) => {
     return () => clearInterval(counter);
   }, [target, startTrigger]);
 
-  const formatNumber = (num) => {
-    return num.toString().replace(/\B(?=(\d{3})+(?!\n))/g, ",");
-  };
+  const formatNumber = (num) => num.toLocaleString("en-IN");
 
   return (
     <div className="impact-metric-card">

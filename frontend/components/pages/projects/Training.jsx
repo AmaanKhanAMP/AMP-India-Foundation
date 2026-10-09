@@ -1,5 +1,10 @@
 import ScrollToTop from '@/components/layout/ScrollToTop';
-import { EMPLOYMENT_TRAINING_IMAGE } from '@/lib/projectAssets';
+import skillDevelopmentImage from '@/src/assets/gallery/amp-ahmedabad-chapter-workshop.png';
+
+const skillDevelopmentImageSrc =
+  typeof skillDevelopmentImage === 'string'
+    ? skillDevelopmentImage
+    : skillDevelopmentImage?.src;
 
 const Training = () => {
   const title = 'Employment Training';
@@ -7,7 +12,7 @@ const Training = () => {
   const quote =
     'Helping young people become confident and ready for the workplace.';
   const badge = 'EMPLOYMENT TRAINING';
-  const image = EMPLOYMENT_TRAINING_IMAGE;
+  const image = skillDevelopmentImageSrc;
   const paragraphs = [
     'Having a qualification is important, but young people also need practical skills and confidence to successfully enter today’s job market.',
     'AIF’s Employability Training Programme (ETP) helps bridge this gap.',
