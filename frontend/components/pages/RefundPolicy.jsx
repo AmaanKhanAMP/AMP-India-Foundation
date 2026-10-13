@@ -45,63 +45,63 @@ const RefundPolicy = () => {
           animate={fadeUp.animate}
           transition={{ duration: 0.5, ease: 'easeOut', delay: 0.08 }}
         >
+          <p className="terms-updated">Last Updated On: 13 October 2026</p>
+
           <article className="terms-section">
             <p>
-              AMP India Foundation takes utmost care to process and utilize donations
-              as per the instructions given by our donors. Donations made to AMP India
-              Foundation are final and cannot be refunded, except in certain cases
-              where donors have a genuine reason for refunds and it is approved by the
-              Directors.
+              AMP India Foundation (&quot;AIF&quot;, &quot;we&quot;, or &quot;us&quot;) applies donations
+              in line with the purpose the donor has indicated. A gift to AIF is complete when it is
+              received. It is not refundable as a matter of course. A refund is considered only where
+              the donor has a genuine reason and the Directors of AIF approve the request.
             </p>
           </article>
 
-          <h2 className="terms-general-heading">How AMP Treats Refund Requests</h2>
+          <h2 className="terms-general-heading">How refund requests are handled</h2>
 
           <article className="terms-section">
-            <h2>Fair and transparent</h2>
+            <h2>A clear process</h2>
             <p>
-              AMP India Foundation has created a donation refund policy to ensure fair
-              and transparent processing of requests for refund of donations.
-            </p>
-          </article>
-
-          <article className="terms-section">
-            <h2>Due care by donors</h2>
-            <p>
-              AMP India Foundation expects that all donors will exercise due care and
-              diligence while making donations.
+              This policy sets out how AIF reviews a request to return a donation, so that each
+              request is dealt with in an open and even-handed way.
             </p>
           </article>
 
           <article className="terms-section">
-            <h2>Errors and change of mind</h2>
+            <h2>Care expected from donors</h2>
             <p>
-              AMP India Foundation also recognizes that a donation may be made
-              erroneously or the donors may change their mind after transferring the
-              amount.
+              Before transferring money, donors are expected to check the amount, the beneficiary,
+              and the payment details with reasonable care.
             </p>
           </article>
 
           <article className="terms-section">
-            <h2>Refunds are discretionary</h2>
+            <h2>Mistakes and a later change of mind</h2>
             <p>
-              AMP India Foundation is not obliged to make refunds and may, in its
-              discretion, decline any requests for refund of donations.
+              AIF accepts that a transfer can be made by mistake, and that a donor may decide
+              differently after the money has already been sent.
             </p>
           </article>
 
           <article className="terms-section">
-            <h2>How to request a refund</h2>
+            <h2>Approval is not guaranteed</h2>
             <p>
-              If you would like your donation to AMP India Foundation to be refunded,
-              kindly send a request mail to <ContactEmail /> with the reason for refund
-              along with the transaction details. Your request must reach AMP India
-              Foundation within 15 days from the date of donation.
+              AIF is under no duty to return a donation. A request may be refused. Any return that
+              is made depends on approval by the Directors.
+            </p>
+          </article>
+
+          <article className="terms-section">
+            <h2>How to ask for a refund</h2>
+            <p>
+              Write to <ContactEmail /> if you want a donation to AMP India Foundation returned.
+              The message must state why you are asking and must include the transaction details
+              needed to identify the payment. The request has to reach AIF within 15 days of the
+              date of the donation.
             </p>
             <p>
-              AMP India Foundation will examine each request for refund of donation
-              and endeavor to make the refund. AMP India Foundation may also seek
-              further information/documents and donors must co-operate in this regard.
+              AIF will look at the request and will try to return the amount where the request is
+              accepted. AIF may ask for further information or documents. The donor is expected to
+              provide what is reasonably asked for so the request can be considered.
             </p>
           </article>
         </motion.div>

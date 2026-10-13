@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from 'react';
-const volunteer = '/assets/download.jpg'; // Ensure the path is correct based on your project structure
+const volunteer = '/assets/volunteer-community.jpg';
 
 // Custom lightweight counter hook for smooth UI performance
 const useCounter = (endValue, duration = 2000, suffix = '') => {
@@ -151,9 +151,13 @@ const Volunteer = () => {
             Joining is <br />
             <span className="volunteer-italic-blue-light">simple.</span>
           </h2>
-          <p className="volunteer-portal-desc">
-            Step 1: Complete the online volunteer registration form. Step 2: Our team will review your application and contact you. Step 3: Attend a short orientation session to understand our programmes and volunteer opportunities. Step 4: Start contributing to projects that match your interests, skills and availability. Together, let&apos;s build a brighter future for all.
-          </p>
+          <div className="volunteer-portal-desc">
+            <p>Step 1: Complete the online volunteer registration form.</p>
+            <p>Step 2: Our team will review your application and contact you.</p>
+            <p>Step 3: Attend a short orientation session to understand our programmes and volunteer opportunities.</p>
+            <p>Step 4: Start contributing to projects that match your interests, skills and availability.</p>
+            <p>Together, let&apos;s build a brighter future for all.</p>
+          </div>
           
           <div className="volunteer-portal-meta">
             <span className="volunteer-meta-item">

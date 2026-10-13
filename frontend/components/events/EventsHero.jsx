@@ -40,7 +40,7 @@ const EventsHero = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.2, duration: 0.5 }}
         >
-          <Sparkles size={14} aria-hidden="true" />
+        
           AMP India Foundation Events
         </motion.span>
 
