@@ -14,6 +14,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
 
+/* Events hero is the shared heading standard. Later :root blocks must not override these. */
+:root {
+  --hero-title-font: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --hero-title-weight: 800;
+  --hero-title-size: clamp(36px, 5vw, 58px);
+  --hero-title-leading: 1.12;
+  --hero-title-tracking: -1.5px;
+  --hero-title-accent: linear-gradient(135deg, #60a5fa, #93c5fd);
+}
+
 /* Add this to your global index.css or App.css file */
 /*
   Double-scrollbar fix:
@@ -945,17 +955,21 @@ object-fit:contain;
 /* Typography Rules */
 .carousel-title {
   color: #ffffff;
-  font-size: clamp(1.625rem, 1.1rem + 2.6vw, 3.25rem);
-  font-weight: 800;
-  line-height: 1.15;
+  font-family: var(--hero-title-font);
+  font-size: var(--hero-title-size);
+  font-weight: var(--hero-title-weight);
+  line-height: var(--hero-title-leading);
   margin: 0 0 clamp(12px, 2.5vw, 20px) 0;
-  letter-spacing: -0.5px;
+  letter-spacing: var(--hero-title-tracking);
   opacity: 0;
   max-width: 100%;
 }
 
 .title-blue-accent {
-  color: #558cee;
+  background: var(--hero-title-accent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .carousel-subtitle {
@@ -1092,7 +1106,6 @@ object-fit:contain;
   }
 
   .carousel-title {
-    font-size: 52px;
     margin-bottom: 20px;
   }
 
@@ -1157,10 +1170,6 @@ object-fit:contain;
     align-items: center;
   }
 
-  .carousel-title {
-    font-size: clamp(1.5rem, 1.15rem + 2.2vw, 2.125rem);
-    line-height: 1.2;
-  }
 
   .carousel-subtitle {
     font-size: clamp(0.8125rem, 0.78rem + 0.2vw, 0.875rem);
@@ -1267,10 +1276,6 @@ object-fit:contain;
     padding: 0 12px;
   }
 
-  .carousel-title {
-    font-size: clamp(1.375rem, 5.2vw, 1.625rem);
-  }
-
   .carousel-subtitle {
     font-size: 0.8125rem;
     line-height: 1.55;
@@ -1292,7 +1297,6 @@ object-fit:contain;
   }
 
   .carousel-title {
-    font-size: clamp(1.25rem, 4.5vw, 1.75rem);
     margin-bottom: 8px;
   }
 
@@ -3109,19 +3113,19 @@ object-fit:contain;
 }
 .hero-subtitle-tag { display: inline-block; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 4px; color: #2dd4bf; margin-bottom: 16px; }
 .about-page-canvas .hero-title {
-  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: clamp(36px, 5vw, 58px);
-  font-weight: 800;
+  font-family: var(--hero-title-font);
+  font-size: var(--hero-title-size);
+  font-weight: var(--hero-title-weight);
   color: #ffffff;
-  line-height: 1.12;
+  line-height: var(--hero-title-leading);
   margin: 0 auto 20px auto;
-  letter-spacing: -1.5px;
+  letter-spacing: var(--hero-title-tracking);
   text-shadow: 0 4px 14px rgba(0, 0, 0, 0.6);
   max-width: 100%;
   overflow-wrap: anywhere;
   word-break: break-word;
 }
-.hero-gradient-text { background: linear-gradient(135deg, #60a5fa, #93c5fd); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.hero-gradient-text { background: var(--hero-title-accent); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
 .hero-divider { width: 60px; height: 4px; background: linear-gradient(90deg, var(--brand-teal), var(--brand-indigo)); margin: 0 auto; border-radius: 2px; }
 .about-hero-banner .hero-description,
 .about-hero-banner .hero-description p {
@@ -4329,19 +4333,21 @@ html {
 
 .volunteer-hero-title {
   color: #ffffff;
-  font-size: 72px;
-  font-weight: 700;
-  line-height: 1.05;
-  letter-spacing: -2px;
+  font-family: var(--hero-title-font);
+  font-size: var(--hero-title-size);
+  font-weight: var(--hero-title-weight);
+  line-height: var(--hero-title-leading);
+  letter-spacing: var(--hero-title-tracking);
   margin: 0 0 24px 0;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
 
 .volunteer-italic-text {
-  font-style: italic;
-  font-weight: 300;
-  color: #90cdf4;
+  background: var(--hero-title-accent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .volunteer-hero-subtitle {
@@ -4489,10 +4495,6 @@ html {
     padding: 72px 6% 96px 6%;
   }
 
-  .volunteer-hero-title {
-    font-size: clamp(40px, 6vw, 56px);
-    letter-spacing: -1.5px;
-  }
 
   .volunteer-floating-impact {
     top: 16px;
@@ -4660,8 +4662,6 @@ html {
   }
 
   .volunteer-hero-title {
-    font-size: clamp(32px, 9vw, 40px);
-    letter-spacing: -0.8px;
     margin-bottom: 16px;
   }
 
@@ -4767,7 +4767,6 @@ html {
     padding-right: 14px;
   }
 
-  .volunteer-hero-title,
   .volunteer-mission-title,
   .volunteer-portal-title {
     font-size: 30px;
@@ -5238,14 +5237,16 @@ html {
 }
 
 .premium-hero-heading {
-  font-size: clamp(36px, 5.5vw, 64px);
-  font-weight: 800;
+  font-family: var(--hero-title-font);
+  font-size: var(--hero-title-size);
+  font-weight: var(--hero-title-weight);
   color: var(--color-text-dark);
-  line-height: 1.05;
-  letter-spacing: -2.5px;
+  line-height: var(--hero-title-leading);
+  letter-spacing: var(--hero-title-tracking);
   margin: 0 0 20px 0;
 }
 
+/* Light hero: the photo-banner accent gradient is too pale on #f8fafc. */
 .premium-hero-heading span {
   color: var(--color-primary);
 }
@@ -6837,12 +6838,12 @@ html {
 }
 
 .hero-heading {
-  font-family: var(--font-heading);
-  font-size: 2.85rem;
-  font-weight: 800;
+  font-family: var(--hero-title-font);
+  font-size: var(--hero-title-size);
+  font-weight: var(--hero-title-weight);
   margin:40px 0 0 0;
-  line-height: 1.25;
-  letter-spacing: -0.02em;
+  line-height: var(--hero-title-leading);
+  letter-spacing: var(--hero-title-tracking);
 }
 
 .hero-heading-gradient-wrapper {
@@ -6850,8 +6851,9 @@ html {
   display: inline-block;
 }
 .hero-heading-gradient {
-  background: linear-gradient(to right, #3b82f6, #93c5fd);
+  background: var(--hero-title-accent);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .heading-geometric-underline {
@@ -7172,10 +7174,11 @@ html {
 
 .terms-hero-title {
   margin: 0 0 16px;
-  font-size: clamp(36px, 5.5vw, 56px);
-  font-weight: 800;
-  line-height: 1.15;
-  letter-spacing: -0.03em;
+  font-family: var(--hero-title-font);
+  font-size: var(--hero-title-size);
+  font-weight: var(--hero-title-weight);
+  line-height: var(--hero-title-leading);
+  letter-spacing: var(--hero-title-tracking);
   color: #ffffff;
   text-shadow: 0 8px 28px rgba(15, 23, 42, 0.25);
   overflow-wrap: anywhere;
@@ -7532,10 +7535,6 @@ html {
 @media (max-width: 380px) {
   .terms-hero {
     padding: 88px 12px 56px;
-  }
-
-  .terms-hero-title {
-    font-size: 30px;
   }
 
   .terms-content-section {

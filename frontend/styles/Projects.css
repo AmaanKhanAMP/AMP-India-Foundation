@@ -102,18 +102,18 @@
 }
 
 .projects-hero-title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: clamp(34px, 4.8vw, 52px);
-  font-weight: 800;
+  font-family: var(--hero-title-font);
+  font-size: var(--hero-title-size);
+  font-weight: var(--hero-title-weight);
   color: #ffffff;
-  line-height: 1.12;
-  letter-spacing: -1px;
+  line-height: var(--hero-title-leading);
+  letter-spacing: var(--hero-title-tracking);
   margin: 0 0 18px 0;
   text-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
 }
 
 .projects-hero-title span {
-  background: linear-gradient(135deg, #60a5fa, #93c5fd);
+  background: var(--hero-title-accent);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
