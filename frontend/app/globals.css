@@ -3109,18 +3109,19 @@ object-fit:contain;
 }
 .hero-subtitle-tag { display: inline-block; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 4px; color: #2dd4bf; margin-bottom: 16px; }
 .about-page-canvas .hero-title {
-  font-size: 54px;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: clamp(36px, 5vw, 58px);
   font-weight: 800;
   color: #ffffff;
-  line-height: 1.2;
+  line-height: 1.12;
   margin: 0 auto 20px auto;
-  letter-spacing: -1px;
+  letter-spacing: -1.5px;
   text-shadow: 0 4px 14px rgba(0, 0, 0, 0.6);
   max-width: 100%;
   overflow-wrap: anywhere;
   word-break: break-word;
 }
-.hero-gradient-text { background: linear-gradient(135deg, #2dd4bf, #a5b4fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.hero-gradient-text { background: linear-gradient(135deg, #60a5fa, #93c5fd); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 .hero-divider { width: 60px; height: 4px; background: linear-gradient(90deg, var(--brand-teal), var(--brand-indigo)); margin: 0 auto; border-radius: 2px; }
 .about-hero-banner .hero-description,
 .about-hero-banner .hero-description p {
@@ -3341,10 +3342,6 @@ object-fit:contain;
     padding: 110px 24px 64px;
   }
 
-  .about-page-canvas .hero-title {
-    font-size: clamp(32px, 4.5vw, 48px);
-  }
-
   .editorial-heading {
     font-size: clamp(28px, 3.5vw, 36px);
   }
@@ -3372,8 +3369,6 @@ object-fit:contain;
   }
 
   .about-page-canvas .hero-title {
-    font-size: clamp(26px, 7.5vw, 34px);
-    letter-spacing: -0.5px;
     margin-bottom: 14px;
   }
 
@@ -3454,10 +3449,6 @@ object-fit:contain;
 @media (max-width: 480px) {
   .about-hero-banner {
     padding: 88px 16px 40px;
-  }
-
-  .about-page-canvas .hero-title {
-    font-size: 26px;
   }
 
   .about-content-sec,
